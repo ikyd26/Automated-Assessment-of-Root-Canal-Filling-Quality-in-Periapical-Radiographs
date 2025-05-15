@@ -7,6 +7,5 @@ The RCFL dataset is a collection of 735 periapical radiographs (PRs) of root can
 
 Data Availability: Due to ethical constraints and institutional policies, the RCFL dataset is not publicly available. However, the data can be made accessible upon reasonable request to the author listed below. All requests will be reviewed to ensure compliance with relevant institutional and ethical guidelines. If approved, qualified researchers may receive access to the radiographic data for non-commercial, academic purposes in accordance with the conditions of the ethical approval.
 
-Contact:
-İsmail Kayadibi, Afyon Kocatepe University, Deparment of Managament Information Systems
-Email: ikayadibi@aku.edu.tr, ikayadibi026@gmail.com
+For any inquiries regarding the dataset, please feel free to contact us at:
+📧 ikayadibi@aku.edu.tr
