@@ -1,4 +1,4 @@
-# RCFLA-YOLO Arhitecture and RCFL Dataset
+# Introduction of RCFLA-YOLO Architecture and RCFL Data Set
 RCFLA-YOLO Arhitecture - A Novel Deep Learning-Driven Framework for Automated Assessment of Root Canal Filling Quality in Periapical Radiographs
 
 Description of RCFL Dataset: Periapical Radiographs of Root Canal Fillings
