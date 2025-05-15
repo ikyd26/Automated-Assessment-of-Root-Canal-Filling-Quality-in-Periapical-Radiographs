@@ -1,0 +1,32 @@
+## 🧠 RCFLA-architecture.py – Experimental Training Pipeline for YOLO Models
+
+This script provides an automated and modular training pipeline for benchmarking multiple YOLO-based object detection architectures (YOLOv5, YOLOv8, YOLOv11) on the RCFL dataset. It was developed to support experiments related to the classification of root canal filling (RCF) adequacy using periapical radiographs (PRs) collected in a preclinical dental training setting.
+
+---
+
+### 🎯 Purpose
+
+The main goal of this script is to compare the performance of state-of-the-art YOLO models in detecting root canal filling adequacy from radiographic images. It systematically:
+- Trains multiple YOLO variants,
+- Evaluates their performance,
+- Saves metrics for cross-model comparison.
+
+---
+
+### ⚙️ Key Features
+
+- **Multi-model support**: Trains YOLOv5, YOLOv8, and YOLOv11 models in different scales (n, s, m, l).
+- **Structured metric extraction**: Automatically collects precision, recall, F1-score, mAP@50, and mAP@50–95 after each training session.
+- **Excel export**: Saves all results into a structured Excel file (`RCFL_All-training_results.xlsx`).
+- **Interrupt capability**: Press `'q'` during training to safely terminate the process.
+- **Ethical data handling**: Assumes dataset access is ethically approved and defined via `data.yaml`.
+
+---
+
+### 📂 Dataset
+
+The RCFL dataset consists of 735 anonymized periapical radiographs collected between 2023 and 2025. It is **not publicly available** due to ethical restrictions but may be obtained upon reasonable request to the corresponding author (see Data Availability below).
+
+Dataset path:  
+```bash
+RCFL_Dataset-v2/data.yaml
